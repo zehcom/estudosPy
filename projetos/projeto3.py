@@ -163,6 +163,8 @@ class Deposito
 
         if sucesso_transacao:
             conta.historico.adicionar_transacao(self)
+
+
 menu = """
 [c] Cadastra Usuário
 [a] Cadastra Conta
